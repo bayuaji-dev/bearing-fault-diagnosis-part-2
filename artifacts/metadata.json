@@ -1,0 +1,30 @@
+{
+  "versi_model": "1.0.0",
+  "nama_proyek": "Bearing Fault Diagnosis",
+  "jenis_tugas": "klasifikasi_multikelas",
+  "target": "kondisi",
+  "kelas": [
+    "normal",
+    "outer_race",
+    "inner_race",
+    "bola"
+  ],
+  "fitur_input": [
+    "posisi_sensor",
+    "kecepatan_rpm",
+    "beban_kN",
+    "suhu_housing_C",
+    "rms_g",
+    "puncak_g",
+    "kurtosis",
+    "crest_factor",
+    "energi_bpfo",
+    "energi_bpfi",
+    "energi_bsf",
+    "frekuensi_dominan_hz"
+  ],
+  "kolom_dikecualikan": [
+    "id_rekaman"
+  ],
+  "catatan": "Sesuaikan daftar kelas dan versi library dengan hasil training aktual. Model diharapkan berupa sklearn Pipeline yang menerima nama fitur di atas."
+}
